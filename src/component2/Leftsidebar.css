@@ -1,0 +1,107 @@
+
+
+
+.disp1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px ;
+ 
+
+    margin-top: 20px;
+    
+    
+}
+
+.plusicon{
+    font-size: 24px;
+    color: #9F86C0 ;
+
+}
+
+.disp1 h4{
+    margin-bottom: 0px ;
+    font-size: 18px;
+
+}
+
+.mainleft{
+    width: 20%;
+
+    border-top: 2px solid  rgba(244, 244, 244, 0.9);
+}
+
+.searchicon{
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    background: #F4F4F4E5;
+    
+}
+
+.searchicon input {
+    border: none;
+    outline: none;
+    background: #F4F4F4E5;
+    
+}
+
+.ser{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.serchiconb{
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.dashboard2{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gilroy-Medium' ;
+    margin-top: 20px;
+    padding: 12px 12px;
+    font-size: 16px;
+    padding-left: 25px;
+    align-items: center;
+}
+
+.dashboard2 h5{
+    font-size: 14px;
+    font-family: 'Gilroy-Medium' ;
+}
+
+.dashboard2:hover{
+    background-color: #d8d4d4d0;
+}
+
+.serch2{
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.serch3{
+    font-size: 30px;
+
+}
+
+.noti h5{
+    margin-top: 20px;
+    padding: 15px 15px;
+    font-family: 'Gilroy-Medium' ;
+    font-size: 14px;
+    color: black;
+    padding-left: 27px;
+}
+
+.noti h5:hover{
+    background-color: #d8d4d4d0;
+}
+
+       
+@font-face{
+    src: url(../asserts/fonts/Gilroy/Gilroy-Medium.ttf);
+    font-family: 'Gilroy-Medium' ;
+}
+

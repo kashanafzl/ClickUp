@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+
+// import Click from './Components/Click';
+// import Click22 from './Components/click22';
+// import Dashboard from './Components/Dashboard';
+// import Clickme from './Components/Clickme';
+
+import Dashboard from "./view/Dashboard";
+import {Routes , Route} from 'react-router-dom';
+import Center from '../src/component2/Center'
+import Center2 from "./component2/Center2";
+import Center3 from "./component2/Center3";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <Routes >
+
+       <Route path="" element={<Dashboard/>} >
+       <Route path="" element={<Center/>} /> 
+        <Route path="/Center2" element={<Center2/>} /> 
+        
+        <Route path="/Center3" element={<Center3/>} /> 
+
+       </Route>
+
+      </Routes>
+      
+  
+
+
+
+
     </div>
   );
 }

@@ -1,0 +1,315 @@
+
+
+
+
+#maincon2{
+    background: #F5F9FA;
+    padding: 0rem 3.2rem;
+}
+
+
+
+
+
+@font-face{
+    src: url(../asserts/fonts/Gilroy/Gilroy-Bold.ttf);
+    font-family: 'Gilroy-Bold';
+}
+
+
+@font-face{
+    src: url(../asserts/fonts/Gilroy/Gilroy-Medium.ttf);
+    src: url(../asserts/fonts/Gilroy/Gilroy-Bold.ttf);
+    src: url(../asserts/fonts/Gilroy/Gilroy-Bold.ttf);
+
+    font-family: 'Gilroy-Medium' ;
+    font-family: 'Gilroy-Bold';
+}
+
+
+#headingofclick22{
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    color: #9F86C0;
+    margin-top: 50px;
+
+}
+
+
+@font-face{
+    src: url(../asserts/fonts/Gilroy/Gilroy-Bold.ttf);
+    font-family: 'Gilroy-Medium' ;
+
+
+}
+
+
+@font-face{
+    src: url(../asserts/fonts/Gilroy/Gilroy-Bold.ttf);
+    font-family: 'Gilroy-Bold' ;
+}
+
+#headingofclick33{
+
+            
+      font-family: 'Gilroy-Bold';
+        font-size: 28px;
+        color: #252525;
+        margin-bottom: 10px;
+
+}
+
+        #headingofclick44{
+    
+        font-family: 'Gilroy-Medium';
+        font-size: 16px;
+        color: #252525;
+        opacity: 0.3;
+        margin-bottom: 0px;
+        }
+
+        #headingofclick55{
+            
+        font-family: 'Gilroy-Medium';
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 7px;
+    
+        }
+
+        #headingofclick555{
+            
+            font-family: 'Gilroy-Medium';
+            font-size: 14px;
+            padding-top: 10px;
+            padding-bottom: 7px;
+            }
+
+
+      #labeelpass  {
+            font-family: 'Gilroy-Medium';
+            font-size: 18px;
+       
+      
+        }
+
+        #fortgetpass2{
+            color: #9F86C0;
+            font-family: 'Gilroy-Medium';
+            font-size: 15px;
+        }
+
+        #btn2{
+          
+    border: none;
+
+    padding: 10px 77px;
+
+    font-family: 'Gilroy-Bold';
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #9F86C0;
+    border-radius: 10px;
+    width:80%;
+        }
+
+        button{
+            display: flex;
+            justify-content: center;
+        }
+
+
+        
+@font-face{
+    src: url(../asserts/fonts/Gilroy/Gilroy-Medium.ttf);
+    font-family: 'Gilroy-Medium' ;
+}
+
+        .lastp2{
+            
+            font-family: 'Gilroy-Medium';
+            font-size: 16px;
+            display: flex;
+            padding-left: 25px;
+            padding-top: 50px;
+        }
+
+        .lstspan2{
+                    
+        font-family: 'Gilroy-Bold';
+        font-size: 16px;
+        color: #9F86C0;
+        font-weight: bold;
+        }
+
+        .inputfied2{
+           
+            border-radius: 1rem;
+            background-color: #FFFFFF;
+            align-items: center;
+            padding: 10px;
+            font-size: 16px;
+            width: 90%;
+            
+         
+        }
+
+        .Icon{
+            font-size: 14px;
+        }
+
+        .int{
+            border: 0px;
+            flex: 1;
+        
+        }
+
+        .int:focus {
+            outline: none;
+        }
+
+
+        input{
+            border: 0px;
+            outline: none;
+        }
+
+
+        /* second section */
+        #secondsection2{
+            
+        background: linear-gradient(180deg, #9F86C0 0%, rgba(190, 149, 196, 0) 213.04%);
+        } 
+
+   
+                
+        .picrightthird2{
+           height: 530px;
+           width: 560px;
+           text-align: center;
+           display: flex;
+           justify-content: center;
+          margin-left: 1rem;
+           padding-left: 10%;
+           margin-top: -50px;
+        }
+        #arro2{
+         position: relative;
+         top: 2rem;
+         padding-left: 20px;
+        }
+
+        .per2{
+            padding-left: 3rem;
+        }
+        
+        @media only screen and (max-width: 1000px) {
+            .medi2 {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .picrightthird2{
+                height: 500px;
+                width: 500px;
+                padding: 0;
+                margin: 0;
+          
+                margin-top: -50px;
+
+            }
+        }
+    
+
+        @media only screen and (max-width: 950px) {
+            #picrightthird2 {
+                padding-left: 0rem;
+            }
+
+            #secondsection2{
+                margin-top: 50px;
+            }
+          }
+
+          @media only screen and (max-width: 850px) {
+            .picrightthird2{
+                height: 400px;
+                width: 400px;
+                padding: 0;
+                margin: 0;
+       
+          
+                margin-top: -50px;
+    
+            }
+          }
+
+          
+          @media only screen and (max-width: 770px) {
+             .picrightthird2{
+                height: 450px;
+                width: 450px;
+                padding: 0;
+                margin-left: 4rem;
+
+       
+          
+                margin-top: -50px;
+    
+            }
+          }
+
+
+             
+          @media only screen and (max-width: 670px) {
+             .picrightthird2{
+                height: 450px;
+                width: 450px;
+                margin-top: -50px;
+                padding: 0;
+                margin: 0;
+    
+            }
+          }
+
+                 
+          @media only screen and (max-width: 500px) {
+             .picrightthird2{
+                height: 300px;
+                width: 300px;
+                margin-top: 80px;
+                padding: 0;
+              
+    
+            }
+          }
+
+          @media only screen and (max-width: 400px) {
+             .picrightthird2{
+                height: 250px;
+                width: 250px;
+                margin-top: 80px;
+                padding: 0;
+                margin-right: 20rem;
+              
+    
+            }
+          }
+
+
+          @media only screen and (max-width: 360px) {
+             .picrightthird2{
+                height: 200px;
+                width: 200px;
+                margin-top: 80px;
+                padding: 0;
+                margin-right: 1rem;
+              
+    
+            }
+          }
+
+
+
+
+        

@@ -1,0 +1,132 @@
+
+
+.centermain3{
+    width: 73%;
+ 
+}
+
+.fstbtnboot{
+    display: flex;
+    align-items: center;
+}
+
+
+.btnboot{
+    background-color:  #fff;
+    border: 1px solid #9F86C0;
+  color: #9F86C0;
+    padding: 5px 12px;
+    font-family: 'Gilroy-Medium' ;
+    border-radius: 10px;
+}
+.btnboot:hover{
+    background-color: #9F86C0;
+    color: #fff;
+}
+
+.plusboot2{
+    font-size: 24px;
+    padding-left: 3px;
+
+}
+
+
+
+@font-face{
+    src: url(../asserts/fonts/Gilroy/Gilroy-Medium.ttf);
+    font-family: 'Gilroy-Medium' ;
+}
+
+.locationmodal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.locationp{
+    font-size: 16px;
+    font-family: 'Gilroy-Medium' ;
+    color: rgb(148, 144, 144);
+}
+
+#arrname{
+    font-size: 25px;
+    color: #9F86C0;
+}
+
+.donline{
+    border-bottom: 1px solid rgb(189, 189, 189);
+    width: 100%;
+    padding-top: 1px;
+
+}
+    .inppp{
+        padding: 5px 12px;
+        background :rgb(241, 241, 241);
+    }   
+
+   .searchicon22 {
+    display: flex;
+    align-items: center;
+
+   }
+
+   .searchicon22 input{
+    border: none;
+   }
+
+   .serchiconb22{
+    margin-left: 5px;
+    font-size: 16px;
+   }
+
+   .shap{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-top: 15px;
+   }
+
+   .b{
+    padding-left: 10px;
+    font-family: 'Gilroy-Medium' ;
+    font-size: 14px;
+   }
+
+   #shap{
+    height: 4vh;
+    padding-left: 10px;
+   }
+
+   #do{
+    font-size: 25px;
+   }
+
+
+   #check{
+    margin-left:88px;
+    margin-top: 1px;
+   }
+
+   .cancelbtn{
+      background-color: #fff;
+      color: #9F86C0;
+      padding: 5px 17px;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+   }
+   .cancelbtn:hover{
+    background-color: #9F86C0;
+    color: #fff;
+   }
+   
+   .cancelbtn2{
+    background-color: #9F86C0;
+    color: #fff;
+    padding: 5px 15px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+   }
+

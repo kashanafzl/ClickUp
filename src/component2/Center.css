@@ -1,0 +1,64 @@
+
+.centermain{
+    width: 73%;
+    background-color: #FAFBFC;
+    height: 80vh;
+    
+
+}
+.center2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding-right: 70px;
+
+
+}
+.centerpic{
+    height: 27vh;
+    width: 190px;
+
+}
+
+       
+@font-face{
+    src: url(../asserts/fonts/Gilroy/Gilroy-Medium.ttf);
+    font-family: 'Gilroy-Medium' ;
+}
+
+.centertex h5{
+    font-family: 'Gilroy-bold' ;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@font-face{
+    src: url(../asserts/fonts/Gilroy/Gilroy-Bold.ttf);
+    font-family: 'Gilroy-Bold' ;
+}
+
+.btn2{
+    background-color: #9F86C0;
+    color: #fff;
+    border: none;
+    padding: 0px 17px;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 30px;
+    font-family: 'Gilroy-Bold' ;
+    text-align: center;
+ 
+
+    
+
+}
+
+.btn2 p{
+    margin-bottom: 0px;
+    padding: 10px 11px;
+    font-size: 14px;
+}

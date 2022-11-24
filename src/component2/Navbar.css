@@ -1,0 +1,84 @@
+
+
+.icon1{
+    
+    font-size: 30px;
+ 
+}
+
+.piconclick{
+    height: 8vh;
+}
+
+.navbar1{
+    display: flex;
+    align-items: center;
+}
+
+.main1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 0px;
+}
+
+.main2{
+    display: flex;
+    align-items: center;
+}
+
+.main2 p{
+    margin-bottom: 0px;
+    font-family: 'Gilroy-Bold' ;
+    color: #9F86C0;
+
+}
+
+@font-face{
+    src: url(../asserts/fonts/Gilroy/Gilroy-Bold.ttf);
+    font-family: 'Gilroy-Bold' ;
+}
+
+.btn1{
+    background-color: #9F86C0;
+    color: #fff;
+    border: none;
+    padding: 11px 17px;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-left: 30px;
+    
+
+}
+
+.flex2{
+    display: flex;
+    align-items: center;
+}
+
+@font-face{
+    src: url(../asserts/fonts/Gilroy/Gilroy-Medium.ttf);
+    font-family: 'Gilroy-Medium' ;
+}
+.flex2 p{
+    margin-bottom: 0px;
+    color: #fff;
+    font-family: 'Gilroy-Medium' ;
+    font-size: 14px;
+}
+
+.man1{
+    width: 40px;
+    border-radius: 100%;
+
+}
+
+.rel{
+    position: relative;
+    display: flex;
+}
+
+.lastarro{
+    font-size: 25px;
+}
